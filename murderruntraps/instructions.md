@@ -1,4 +1,4 @@
-#Detecting Dropped Item
+##Detecting Dropped Item
 In a repeating command block type:
 "testfor @e[type=item] {Item:{id:"minecraft:INSERT ITEM HERE"}}"
 *Example "testfor @e[type=item] {Item:{id:"minecraft:diamond"}}"
