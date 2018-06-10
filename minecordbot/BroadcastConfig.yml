@@ -1,0 +1,26 @@
+# +----------------------------------------------------+
+# <              Broadcast Configuration               >
+# <            All broadcast configuration             >
+# <           Some nodes below will also be            >
+# <             effective to Mod Channels              >
+# +----------------------------------------------------+
+
+# Will broadcast from other plugins be relayed to Discord?
+See_Plugin_Broadcast: true
+
+# Will player join event broadcast be relayed to Discord??
+See_Player_Join: true
+
+# Will player quit event broadcast be relayed to Discord?
+See_Player_Quit: true
+
+# Will player death event broadcast be relayed to Discord?
+See_Player_Death: true
+
+# Will ClearLag broadcasts be relayed to Discord?
+See_ClearLag: true
+
+# Do players with minecordbot.incognito
+# permission be hidden from
+# Join/Quit broadcast that are being relayed to Discord.
+Hide_Incognito_Player: false

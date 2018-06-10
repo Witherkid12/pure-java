@@ -1,0 +1,9 @@
+# +----------------------------------------------------+
+# <              Permission Configuration              >
+# <                                                    >
+# <        can be configured using perm command        >
+# +----------------------------------------------------+
+
+RoleID:
+  RoleName: sample
+  Permission: '{-category} {+command}'

@@ -1,0 +1,30 @@
+# MCBChannel ID''s of text channels you
+# want to bind Minecraft chat with
+Relay_Channels:
+- '455265947767537664'
+
+
+# Formatting codes for messages coming from Discord
+Message_Format: '&7'
+
+# Prefix of messages that came from Discord.
+# This can be formatted.
+Discord_Prefix: '&6&l[Discord] &l&c{role} &l&r{ename}:  '
+
+# Prefix of messages that came from Minecraft.
+Minecraft_Prefix: '__[Minecraft]__ {ename}:  '
+
+# If a message from Discord is a command with any of the prefix
+# below. That message won''t be relayed to Minecraft.
+# You can block your own bot''s prefix
+# by placing {this} place holder.
+Blocked_Prefix:
+- '~'
+- ~~
+- '{this}'
+
+# If a message from Discord came from any of the Bots below.
+# That message won''t be relayed to Minecraft.
+Blocked_Bots:
+- '123123123'
+- '123123123'
