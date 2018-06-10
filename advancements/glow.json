@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": {
+			"text": "Glow In The Dark","bold":"true","color":"dark_red"
+		},
+		"description": {
+			"text": "Use 10 Glow Traps","color":"blue"
+		},
+		"icon": {
+			"item": "minecraft:glowstone"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"announce_to_chat": true
+	},
+		"parent" : "game:expensive",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		}
+	}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": {
+			"text": "You're Back? Again...","bold":"true","color":"dark_red"
+		},
+		"description": {
+			"text": "Get Resurrected 3 Times","color":"blue"
+		},
+		"icon": {
+			"item": "minecraft:golden_carrot"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"announce_to_chat": true
+	},
+		"parent" : "game:resurrect",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		}
+	}

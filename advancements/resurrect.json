@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": {
+			"text": "You're Back?","bold":"true","color":"dark_red"
+		},
+		"description": {
+			"text": "Get Resurrected","color":"blue"
+		},
+		"icon": {
+			"item": "minecraft:golden_apple"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"announce_to_chat": true
+	},
+		"parent" : "game:root",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		}
+	}

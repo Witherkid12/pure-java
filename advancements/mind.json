@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": {
+			"text": "GET OUT!","bold":"true","color":"dark_red"
+		},
+		"description": {
+			"text": "Be Mind Controlled","color":"blue"
+		},
+		"icon": {
+			"item": "minecraft:structure_void"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"announce_to_chat": true
+	},
+		"parent" : "game:resurrect",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		}
+	}

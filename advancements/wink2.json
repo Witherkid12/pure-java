@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": {
+			"text": "Mass Murderer","bold":"true","color":"dark_red"
+		},
+		"description": {
+			"text": "Win 5 games as the Murderer","color":"blue"
+		},
+		"icon": {
+			"item": "minecraft:iron_sword"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"announce_to_chat": true
+	},
+		"parent" : "game:wink1",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		}
+	}

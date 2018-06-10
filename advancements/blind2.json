@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": {
+			"text": "I Really Can't See!","bold":"true","color":"dark_red"
+		},
+		"description": {
+			"text": "Use 3 Blind Traps","color":"blue"
+		},
+		"icon": {
+			"item": "minecraft:flint"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"announce_to_chat": true
+	},
+		"parent" : "game:blind",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		}
+	}
