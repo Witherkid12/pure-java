@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": {
+			"text": "Expensive!","bold":"true","color":"dark_red"
+		},
+		"description": {
+			"text": "Make a trade with a villager","color":"blue"
+		},
+		"icon": {
+			"item": "minecraft:nether_wart"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"announce_to_chat": true
+	},
+		"parent" : "game:root",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		}
+	}

@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": {
+			"text": "See? In The Dark","bold":"true","color":"dark_red"
+		},
+		"description": {
+			"text": "Use 20 Glow Traps","color":"blue"
+		},
+		"icon": {
+			"item": "minecraft:sea_lantern"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"announce_to_chat": true
+	},
+		"parent" : "game:glow",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		}
+	}

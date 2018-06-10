@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": {
+			"text": "Smart Player","bold":"true","color":"dark_red"
+		},
+		"description": {
+			"text": "Win 3 games as a Runner","color":"blue"
+		},
+		"icon": {
+			"item": "minecraft:dye"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"announce_to_chat": true
+	},
+		"parent" : "game:win1",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		}
+	}

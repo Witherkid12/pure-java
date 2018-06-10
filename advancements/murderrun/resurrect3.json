@@ -1,0 +1,22 @@
+{
+	"display": {
+		"title": {
+			"text": "What the heck!","bold":"true","color":"dark_red"
+		},
+		"description": {
+			"text": "Get Resurrected 5 Times","color":"blue"
+		},
+		"icon": {
+			"item": "minecraft:gold_ingot"
+		},
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"announce_to_chat": true
+	},
+		"parent" : "game:resurrect2",
+	"criteria": {
+		"win": 
+		{
+			"trigger": "minecraft:impossible"
+		}
+		}
+	}
