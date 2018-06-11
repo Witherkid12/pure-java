@@ -8,7 +8,6 @@ gamemode adventure @a[tag=RT]
 tp @a[tag=RT] 6 22 -11
 scoreboard teams join Runner @a[tag=RT]
 kill @e[tag=krt]
-scoreboard players tag @e remove krt
 effect @a[tag=RT] resistance 3 5 true
 advancement grant @a[tag=RT] only game:resurrect
 scoreboard players add @a[tag=RT] resurrect2 1
