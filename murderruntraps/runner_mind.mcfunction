@@ -6,6 +6,5 @@ execute @e[tag=ST] ~ ~ ~ /scoreboard players tag @p add mcontrolled
 tp @a[tag=mcontrolled] @a[team=Killer]
 effect @a[tag=mcontrolled] minecraft:invisibility 20 1 true
 kill @e[tag=ST]
-scoreboard players tag @e remove ST 
 gamemode 3 @a[team=Killer]
 effect @a[tag=mcontrolled] minecraft:speed 20 2 true
