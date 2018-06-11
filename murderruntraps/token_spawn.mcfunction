@@ -5,5 +5,4 @@ execute @e[tag=PL] ~ ~ ~ /scoreboard players tag @p add spawnt
 tp @a[tag=spawnt] 6 22 -11
 scoreboard players tag @e[tag=spawnt] remove spawnt
 kill @e[tag=PL]
-scoreboard players tag @e remove PL
 playsound minecraft:entity.enderdragon.hurt master @a 1 1 1 100 1 1
