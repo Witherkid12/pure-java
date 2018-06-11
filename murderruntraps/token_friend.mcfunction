@@ -6,4 +6,3 @@ execute @e[tag=FT] ~ ~ ~ /scoreboard players tag @p add friendt
 tp @a[tag=friendt] @a[tag=!friendt,team=Runner]
 scoreboard players tag @a[tag=friendt] remove friendt
 kill @e[tag=FT]
-scoreboard players tag @e remove FT
