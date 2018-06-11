@@ -1,9 +1,9 @@
 title @a subtitle {"text":"HAS BEEN ACTIVATED","color":"dark_red"}
 title @a title {"text":"SPAWN TOKEN","color":"dark_red"}
-scoreboard players tag @e[type=item] add PL
+scoreboard players tag @e[type=item] add PL {Item:{id:minecraft:planks}}
 execute @e[tag=PL] ~ ~ ~ /scoreboard players tag @p add spawnt
-scoreboard players tag @e[type=item] remove PL
 tp @a[tag=spawnt] 6 22 -11
 scoreboard players tag @e[tag=spawnt] remove spawnt
-kill @e[type=item]
+kill @e[tag=PL]
+scoreboard players tag @e[type=item] remove PL
 playsound minecraft:entity.enderdragon.hurt master @a 1 1 1 100 1 1
