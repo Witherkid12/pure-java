@@ -1,9 +1,9 @@
 title @a subtitle {"text":"HAS BEEN ACTIVATED","color":"dark_red"}
 title @a title {"text":"GET ME AWAY TOKEN","color":"gold"}
+scoreboard players tag @e[type=item] add kat {Item:{id:minecraft:redstone}}
 playsound minecraft:block.portal.trigger master @a 1 1 1 100 1 1
-scoreboard players tag @e[type=item] add GMA
-execute @e[tag=GMA] ~ ~ ~ /scoreboard players tag @p add getmeaway
-scoreboard players tag @e[type=item] remove GMA
+execute @e[tag=kat] ~ ~ ~ /scoreboard players tag @p add getmeaway
 effect @a[tag=getmeaway] minecraft:invisibility 15 1 true
-kill @e[type=item]
+kill @e[tag=kat]
+scoreboard players tag @e remove kat
 effect @a[tag=getmeaway] minecraft:speed 10 3 true
