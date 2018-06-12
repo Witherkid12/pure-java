@@ -13,3 +13,4 @@ execute @a[team=Killer] ~ ~ ~ /setblock ~-1 ~1 ~ minecraft:glass
 execute @a[team=Killer] ~ ~ ~ /setblock ~ ~1 ~-1 minecraft:glass
 execute @a[team=Killer] ~ ~ ~ /setblock ~ ~1 ~1 minecraft:glass
 execute @a[team=Killer] ~ ~ ~ /setblock ~ ~2 ~ minecraft:glass
+playsound minecraft:entity.polar_bear.death master @a 1 1 1 100 1 1
