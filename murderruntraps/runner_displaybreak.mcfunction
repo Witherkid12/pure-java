@@ -1,0 +1,10 @@
+execute @a[team=Killer] ~ ~ ~ /setblock ~ ~-1 ~ minecraft:glass
+execute @a[team=Killer] ~ ~ ~ /setblock ~ ~ ~1 minecraft:glass
+execute @a[team=Killer] ~ ~ ~ /setblock ~ ~ ~-1 minecraft:glass
+execute @a[team=Killer] ~ ~ ~ /setblock ~1 ~ ~ minecraft:glass
+execute @a[team=Killer] ~ ~ ~ /setblock ~-1 ~ ~ minecraft:glass
+execute @a[team=Killer] ~ ~ ~ /setblock ~1 ~1 ~ minecraft:glass
+execute @a[team=Killer] ~ ~ ~ /setblock ~-1 ~1 ~ minecraft:glass
+execute @a[team=Killer] ~ ~ ~ /setblock ~ ~1 ~-1 minecraft:glass
+execute @a[team=Killer] ~ ~ ~ /setblock ~ ~1 ~1 minecraft:glass
+execute @a[team=Killer] ~ ~ ~ /setblock ~ ~2 ~ minecraft:glass
