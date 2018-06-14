@@ -1,5 +1,5 @@
-title @a subtitle {"text","HAS BEEN ACTIVATED","color","dark_red"}
-title @a title {"text","BOW KIT","color","dark_red"}
+title @a subtitle {"text":"HAS BEEN ACTIVATED","color":"dark_red"}
+title @a title {"text":"BOW KIT","color":"dark_red"}
 scoreboard players tag @e[type=item] add bowk {Item:{id:"minecraft:spectral_arrow"}}
 kill @e[tag=bowk]
 give @a[team=Killer] minecraft:arrow 32
