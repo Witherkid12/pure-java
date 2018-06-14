@@ -4,4 +4,4 @@ scoreboard players tag @e[type=item] add bowk {Item:{id:"minecraft:spectral_arro
 kill @e[tag=bowk]
 give @a[team=Killer] minecraft:arrow 32
 give @a[team=Killer] minecraft:bow
-playsound minecraft:anvil.land master @a 1 1 1 100 1 1
+playsound minecraft:block.anvil.land master @a 1 1 1 100 1 1
